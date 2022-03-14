@@ -1,8 +1,12 @@
 import './App.css';
+import React from 'react';
 
+import BoxContent from './box.page';
 function App() {
   return (
-    <div>hello</div>
+    <div>
+      <BoxContent />
+    </div>
   )
 }
 

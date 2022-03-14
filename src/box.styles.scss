@@ -1,0 +1,38 @@
+.box {
+    width: 100%;
+    margin-bottom: 18px;
+    .first-line{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        h1{
+            font-size: 1.25rem;
+        }
+        button {
+            font-size: 1.55em;
+            width: 35px;
+            height: 38px;
+            outline: none;
+            border: none;
+            border-radius: 50%;
+            background-color: #F0A500;
+            margin-top: -7px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .ArrowDown {
+                transform: rotate(0deg);
+                transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                &.open{
+                    transform: rotate(180deg);
+                    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+                }
+            }
+        }
+    }
+    P{
+        margin-bottom: 10px !important;
+        font-size: 1.25rem;
+    }
+}
+
